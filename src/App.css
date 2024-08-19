@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(205, 208, 220);
+  color: #111;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-box {
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  min-height: 300px;
+}
+
+.card-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 3px;
+  margin-bottom: 15px;
+  border: 2px solid #ff725e;
+}
+
+.card-details h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+}
+.job-title {
+  font-style: italic;
+  color: #ff725e; /* Matches your theme color */
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.slider-icon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.prev-card,
+.next-card {
+  font-size: 24px;
+  color: #ff725e;
+  cursor: pointer;
+}
+
+.prev-card:hover,
+.next-card:hover {
+  color: #e86045;
+}
